@@ -1,0 +1,6 @@
+node_modules
+uploads
+.idea
+package-lock.json
+desktop.ini
+dist

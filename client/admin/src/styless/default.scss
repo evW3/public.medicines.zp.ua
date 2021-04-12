@@ -1,0 +1,56 @@
+@import "fonts";
+@import "libs/tooltip";
+@import "theme";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #fff;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+    background: #DCDCDC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BFBFBF;
+    border-radius: 3px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-def {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div {
+    font-family: 'AvenirNextCyr Regular';
+    font-size: 14px;
+    color: #000;
+}
+

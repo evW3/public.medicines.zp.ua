@@ -1,0 +1,65 @@
+@import 'fonts';
+@import 'drugTypes';
+@import 'theme';
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+div {
+  font-family: 'AvenirNextCyr Regular';
+  font-size: 14px;
+  color: #000;
+}
+
+input[type='text']::placeholder {
+  color: #999999;
+}
+
+#app {
+    overflow: hidden;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    background: #DCDCDC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #BFBFBF;
+    border-radius: 3px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-def {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
